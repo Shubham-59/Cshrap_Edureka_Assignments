@@ -1,4 +1,5 @@
-﻿using CSharpAssignments;
+﻿using Assignments;
+using CSharpAssignments;
 
 namespace Asssignments
 {
@@ -23,6 +24,18 @@ namespace Asssignments
 
             DisplayOddNumbers oddNumbers = new DisplayOddNumbers();
             oddNumbers.ShowOddNumbers();
+
+            DisplayTable displayTable = new DisplayTable();
+            displayTable.displayTable(10);
+
+            DisplayNumber100To500Gap3 displayNo=new DisplayNumber100To500Gap3();
+            displayNo.displayNumber();
+
+            DisplayIntegers dis=new DisplayIntegers();
+            dis.displayIntegerNumber();
+
+            DisplayIntegerSeperateLine display=new DisplayIntegerSeperateLine();
+            display.DisplayVariablesOnSeparateLines();
 
         }
     }
